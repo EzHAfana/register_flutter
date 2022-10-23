@@ -9,7 +9,7 @@ void main (){
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();
 
   group("group_auth" , ()async{
-  
+
     testWidgets("register", (tester) async {
      app.main();
     await tester.pumpAndSettle();
